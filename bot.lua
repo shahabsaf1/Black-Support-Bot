@@ -192,7 +192,7 @@ if msg then
 		local output = redis:get('pmrsn:setid')
 		if output and dn then
 			   if blocked then
-		local blocked1 = "`Sorry`\n_You,re_ *Block*\n--------------------\n*متاسفانه شما *بلاک* هستید و امکان ارسال پیام را *ندارید"
+		local blocked1 = "`Sorry`\n*We decided to block you*"
 					sendMessage(msg.chat.id,blocked1,false,nil,true)
 					else
 			forwardMessage(output,msg.chat.id,msg.message_id)
@@ -214,7 +214,7 @@ if msg then
 		local output = redis:get('pmrsn:setid')
 		if output and dn then
 			   if blocked then
-				local blocked1 = "`Sorry`\n_You,re_ *Block*\n--------------------\n*متاسفانه شما *بلاک* هستید و امکان ارسال پیام را *ندارید"
+				local blocked1 = "`Sorry`\n*We decided to block you*"
 					sendMessage(msg.chat.id,blocked1,false,nil,true)
 					else
 			forwardMessage(output,msg.chat.id,msg.message_id)
@@ -235,7 +235,7 @@ if msg then
 		local output = redis:get('pmrsn:setid')
 		if output and dn then
 			   if blocked then
-				local blocked1 = "`Sorry`\n_You,re_ *Block*\n--------------------\n*متاسفانه شما *بلاک* هستید و امکان ارسال پیام را *ندارید"
+				local blocked1 = "`Sorry`\n*We decided to block you*"
 					sendMessage(msg.chat.id,blocked1,false,nil,true)
 					else
 			forwardMessage(output,msg.chat.id,msg.message_id)
@@ -256,7 +256,7 @@ if msg then
 		local output = redis:get('pmrsn:setid')
 		if output and dn then
 			   if blocked then
-				local blocked1 = "`Sorry`\n_You,re_ *Block*\n--------------------\n*متاسفانه شما *بلاک* هستید و امکان ارسال پیام را *ندارید"
+				local blocked1 = "`Sorry`\n*We decided to block you*"
 					sendMessage(msg.chat.id,blocked1,false,nil,true)
 					else
 			forwardMessage(output,msg.chat.id,msg.message_id)
